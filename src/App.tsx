@@ -9,7 +9,7 @@ export const App = defineComponent({
       refCount.value += 2
     }
     return () => <>
-      <div>
+      <div class="page">
         <RouterView/>
       </div>
     </>
