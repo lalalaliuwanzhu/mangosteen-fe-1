@@ -16,7 +16,7 @@ First.displayName = 'First'
 
 // export const First = defineComponent({
 //   setup: (props,context) => {
-//     const slots = {
+//     const slots = {  
 //       icon: () => <img class={s.icon} src={pig} />,
 //       title: () => <h2 class={s.h2}>会挣钱<br/>还会省钱</h2>,
 //       buttons: () => <>
