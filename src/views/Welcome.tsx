@@ -12,7 +12,10 @@ export const Welcome = defineComponent({
     })
     return () => <div class={s.wrapper}>
       <header>
-        <img class={s.icon} src={logo} />
+        <svg>
+          <use xlinkHref='#mangosteen'></use>
+        </svg>
+        {/* <img class={s.icon} src={logo} /> */}
         <h1>山竹记账</h1>
       </header>
       <main class={s.main} ref={main}>
