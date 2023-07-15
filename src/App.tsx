@@ -1,6 +1,7 @@
 import { defineComponent, DefineComponent, ref } from "vue";
 import { RouterView } from 'vue-router'
 import './App.scss'
+import 'vant/lib/index.css';
 
 export const App = defineComponent({
   setup() {
